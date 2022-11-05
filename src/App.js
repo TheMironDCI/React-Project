@@ -1,11 +1,10 @@
 import React from 'react'
 import "bootstrap/dist/css/bootstrap.min.css"
-import { ReactDOM } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './components/Home'
-import Pricing from "./components/Pricing"
-import FAQ from "./components/Faq"
-import Contact from "./components/Contact"
+import ContactOrg from './ContactOrg'
+import PricingORG from './PricingORG'
+import FaqOrg from './FaqOrg'
 function App() {
 
 
@@ -13,11 +12,10 @@ function App() {
   return(
     <BrowserRouter>
       <Routes>
-        
         <Route path='/' element={<Home/>}/>
-        <Route path='/pricing' element={<Pricing/>}/>
-        <Route path='/faq' element={<FAQ/>}/>
-        <Route path='/contact' element={<Contact/>}/>
+        <Route path='/pricing' element={<PricingORG/>}/>
+        <Route path='/faq' element={<FaqOrg/>}/>
+        <Route path='/contact' element={<ContactOrg/>}/>
       </Routes>
     </BrowserRouter>
   )

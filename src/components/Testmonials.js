@@ -1,11 +1,27 @@
 import React from 'react'
+import "./TestimonialsStyles.css"
 
 const Testmonials = () => {
   return (
-    <div>
-      <h1>1</h1>
+    <div className='testimonial'>
+        <div className='container'>
+            <div className='outline'>
+                <div className='content'>
+                    <i> Staxx</i>
+                    <p className='body'>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quisquam minus totam optio maiores, delectus deserunt rerum quae
+                        officiis inventore magni.
+                    </p>
+                    <div className='name'>
+                        <p>Marie Chilvers</p>
+                        <p>CEO, Staxx</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  )
+)
 }
 
 export default Testmonials
