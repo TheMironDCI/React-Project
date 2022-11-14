@@ -41,8 +41,16 @@ header .logo img {
     padding: 0 1.5rem;
 }
 
+.nav-link.active {
+    color: red;
+}
+
 .nav-link {
     color: #fff;
+}
+
+.nav-link:hover {
+    color: yellow;
 }
 
 @media screen and (max-width:960px) {

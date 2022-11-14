@@ -1,6 +1,6 @@
 import React from 'react'
 import "./NavbarStyles.css"
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -8,21 +8,22 @@ const Navbar = () => {
       <div className='navbar'>
       <div className='logo'>
         <Link to='/'>
-            <h1>LOGO</h1>
+          <img src='../logo.png' />
         </Link>
       </div>
+      <div className='hamburger'></div>
       <ul className='nav-menu'>
         <li className='nav-item'>
-            <Link to='/' className="nav-link">Home</Link>
+            <NavLink to='/' className="nav-link">Home</NavLink>
         </li>
         <li className='nav-item'>
-            <Link to='/pricing' className="nav-link">Pricing</Link>
+            <NavLink to='/pricing' className="nav-link">Pricing</NavLink>
         </li>
         <li className='nav-item'>
-            <Link to='/contact' className="nav-link">Contact</Link>
+            <NavLink to='/contact' className="nav-link">Contact</NavLink>
         </li>
         <li className='nav-item'>
-            <Link to='/faq' className="nav-link">FAQ</Link>
+            <NavLink to='/faq' className="nav-link">FAQ</NavLink>
         </li>
       </ul>
     </div>

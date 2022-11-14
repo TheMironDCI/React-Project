@@ -21,9 +21,18 @@
     color: var(--grey);
 }
 
+.section-faq .col-1 {
+    width: 100%;
+}
+
+.section-faq .col-2 {
+    width: 100% !important;
+}
+
 .section-faq span {
     color: var(--primary);
 }
+
 
 .section-faq h5 {
     font-size: 1rem;

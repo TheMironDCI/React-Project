@@ -99,10 +99,12 @@
 
     .contact .col-1 {
         padding: 0 1rem;
+        width: 100%;
     }
 
     .contact .col-2 {
         padding: 1rem;
+        width: 100%;
     }
 }
 
